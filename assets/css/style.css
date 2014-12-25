@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(bootstrap-responsive.min.css);
+@import url(bootstrap.min.css);
+
+
+html, html a, html button, html input {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #363940;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #66994d;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #363940;
+	font-size: 34px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #363940;
+	font-size: 30px;
+	line-height: 22px;
+}
+
+button {
+	border: none;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	transition: background-color .25s ease-in-out;
+   	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+   	color: #fff;
+   	font-family: 'Lato', sans-serif;
+   	font-weight: 700;
+   	font-size: 17px;
+   	padding: 12px;
+}
+
+.header {
+	background-color: #D14646;
+}
+
+.logo {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	width: 301px;
+	height: 69px;
+	background: url(../img/mindwander_brand_white.png) no-repeat;
+}
+
+.navigation {
+	float: right;
+	overflow: hidden;
+}
+
+.navigation ul { 
+	list-style: none; 
+	position: relative;
+}
+
+.navigation li { 
+	padding-right: 10px;
+	display: inline; 
+	float: right;
+	position: relative; 
+	margin: 0.6em;
+	margin-top: 37px;
+}
+
+.navigation li a { 
+	font-size: 18px;
+	color: white;
+}
+
+.navigation li a.hover { 
+	font-size: 35px;
+	color: black;
+}
+
+.stage {
+	height: 540px;
+	background: url(../img/stage.jpg);
+	background-position: top;
+	position: relative;
+}
+
+.stage h1 {
+	text-align: center;
+	line-height: 86px;
+	font-size: 66px;
+	margin-top: 0px;
+	padding-top: 110px;
+	color: #F6F6F6;
+}
+
+.stage p {
+	text-align: center;
+	font-size: 44px;
+	line-height: 53px;
+	margin-top: 0px;
+	padding-top: 15px;
+	color: #F6F6F6;
+}
+
+.content {
+	padding-top: 40px;
+	background-color: #F6F6F6;
+}
+
+.content h2 {
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 0px;
+}
+
+.content hr {
+	margin: 2em auto;
+	border: none;
+	border-top: solid 0.2rem #444444;
+	width: 10em;
+}
+
+.content p {
+	text-align: center;
+	max-width: 55em;
+	margin: 3em auto 0 auto;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	padding-bottom: 60px;
+}
+
+.contact {
+	height: 540px;
+	opacity:70%;
+	background: url(../img/contact.jpg);
+	background-position: top;
+	position: relative;
+}
+
+.opacity {
+	background-color: rgba(0,0,0,0.4);
+	height: 540px;
+}
+
+.contact h2 {
+	color: #F6F6F6;
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 0px;
+	padding-top: 110px;
+}
+
+.contact hr {
+	margin: 2em auto;
+	border: none;
+	border-top: solid 0.2rem #F6F6F6;
+	width: 10em;
+}
+
+.contact p {
+	text-align: center;
+	max-width: 55em;
+	margin: 3em auto 0 auto;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #F6F6F6;
+}
+
+.cta {
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	border: solid 0.3em #F6F6F6;
+}
+
+.contact a {
+color: inherit;
+border-color: #F6F6F6;
+}
+
+.footer {
+	background-color: black;
+	height: 30px;
+}
+
+.Copyright {
+	float: right;
+}
+
+.Links {
+	float: left;
+}

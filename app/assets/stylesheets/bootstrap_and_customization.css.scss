@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: 		#E74C3C;
+$navbar-default-bg:	#e74c3c;
+$navbar-height: 80px;
+
+@import "bootstrap";
+
+.center {
+     text-align: center;
+}
+
+.navbar {
+	height: 120px;
+}
+
+.coming-soon {
+	padding-top: 300px;
+}
